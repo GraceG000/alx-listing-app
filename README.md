@@ -20,7 +20,7 @@ The goal is to establish a clean project architecture with reusable components, 
 
 ## 🗂️ Project Structure
 
-```plaintext
+
 alx-listing-app/
 │
 ├── components/         # Contains reusable UI components (e.g., Card, Button)
