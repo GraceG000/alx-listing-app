@@ -20,7 +20,7 @@ The goal is to establish a clean project architecture with reusable components, 
 
 ## 🗂️ Project Structure
 
-
+```plaintext
 alx-listing-app/
 │
 ├── components/         # Contains reusable UI components (e.g., Card, Button)
@@ -40,7 +40,7 @@ alx-listing-app/
 ├── tsconfig.json       # TypeScript configuration
 ├── .eslintrc.json      # ESLint configuration for maintaining code quality
 └── package.json        # Project dependencies and scripts
-
+```
 ---
 
 ## How to run the project locally:
