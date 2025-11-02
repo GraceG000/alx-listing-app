@@ -1,40 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🏠 ALX Listing App
 
-## Getting Started
+## 📖 About the Project
 
-First, run the development server:
+The **ALX Listing App** is a foundational project that lays the groundwork for creating a modern Airbnb clone. This milestone focuses on building a well-structured, scalable, and production-ready codebase using **Next.js**, **TypeScript**, **TailwindCSS**, and **ESLint**.  
 
-```bash
+The goal is to establish a clean project architecture with reusable components, clear type definitions, and consistent styling — ensuring a robust starting point for a responsive and user-friendly property listing page.
+
+---
+
+## 🎯 Project Goals
+
+- Scaffold a **Next.js** project with **TypeScript**, **ESLint**, and **TailwindCSS** preconfigured.  
+- Implement reusable UI components such as **Card** and **Button** for modular design.  
+- Use **TypeScript interfaces** to maintain type safety and improve code maintainability.  
+- Structure the app following **industry best practices** for scalability and clarity.  
+- Organize assets efficiently under the `public/` directory for easy access.
+
+---
+
+## 🗂️ Project Structure
+
+```plaintext
+alx-listing-app/
+│
+├── components/         # Contains reusable UI components (e.g., Card, Button)
+│
+├── interfaces/         # Holds TypeScript interfaces (e.g., CardProps, ButtonProps)
+│
+├── constants/          # Stores app-wide constants (e.g., static data or config values)
+│
+├── public/
+│   └── assets/         # Contains static assets like images, icons, and SVGs
+│
+├── styles/             # Includes global and Tailwind styles (e.g., globals.css)
+│
+├── pages/ or app/      # Next.js pages or routes (depending on version)
+│
+├── tailwind.config.js  # TailwindCSS configuration
+├── tsconfig.json       # TypeScript configuration
+├── .eslintrc.json      # ESLint configuration for maintaining code quality
+└── package.json        # Project dependencies and scripts
+
+---
+
+## How to run the project locally:
+
+1. 📦 Clone the Repository
+
+git clone https://github.com/GraceG000/alx-listing-app.git
+cd alx-listing-app
+
+2. 🧰 Install Dependencies
+
+Ensure you have Node.js (v16+) installed.
+Then install all required packages:
+
+npm install
+
+3. 🚀 Run the Development Server
+
+Start the local development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Then open your browser and visit:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+http://localhost:3000
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You should see the ALX Listing App running successfully!
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧱 Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Next.js 13+
+ – React framework for production-grade applications
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TypeScript
+ – Type-safe JavaScript
 
-## Deploy on Vercel
+TailwindCSS
+ – Utility-first CSS framework
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+ESLint
+ – Linting tool for maintaining clean and consistent code
